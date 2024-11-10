@@ -1,0 +1,38 @@
+.masonry-grid
+    display: grid
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr))
+    grid-auto-rows: 150px
+    gap: 10px
+    grid-auto-flow: dense
+
+.masonry-item
+    background-color: #e0e0e0
+    border-radius: 8px
+    overflow: hidden
+    display: flex
+    align-items: center
+    justify-content: center
+    text-align: center
+    opacity: 0
+    transform: translateY(20px)
+    animation: fadeIn 0.1s ease forwards
+    
+    @for $i from 0 through 10 // limite de 50 para exemplo, ajuste conforme necessário
+        &:nth-child(#{$i + 1})
+            animation-delay: #{$i * 0.1}s
+
+.item-content h3
+    margin: 0
+    font-size: 1.2em
+
+.item-content p
+    margin: 0
+    font-size: 0.9em
+
+@keyframes fadeIn
+    from
+        opacity: 0
+        transform: translateY(20px)
+    to
+        opacity: 1
+        transform: translateY(0)

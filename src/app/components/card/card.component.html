@@ -1,0 +1,5 @@
+<div [style.backgroundImage]="'url(' + item.background + ')'" class="card">
+    <a [routerLink]="['/detail', item.type, item.link]">
+        <span>{{ title }}</span>
+    </a>
+</div>

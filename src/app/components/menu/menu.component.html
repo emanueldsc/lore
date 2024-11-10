@@ -1,0 +1,7 @@
+<nav>
+    <ul>
+        @for (item of menu; track item.type) {
+            <li><lore-card-menu [item]="item" (click)="selecionarItemMenu(item)"></lore-card-menu></li>
+        }
+    </ul>
+</nav>

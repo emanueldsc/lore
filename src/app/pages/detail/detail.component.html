@@ -1,0 +1,11 @@
+<div class="back-button-container">
+    <a [href]="'/'" class="back-button">
+        &#8592;
+    </a>
+</div>
+
+<div class="creature-page">
+    <lore-carousel [images]="content.images" />
+    <lore-detail [lore]="content.lore" [title]="content.name" />
+    <lore-tabs [stats]="content.stats" />
+</div>

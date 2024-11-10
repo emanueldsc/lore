@@ -1,0 +1,9 @@
+<div class="tabs">
+    @for (tab of statKeys; track $index) {
+        <button (click)="selectTab(tab)" [class.active]="tab === selectedTab">{{ tab }}</button>
+    }
+</div>
+
+@if (selectedTab) {
+    <div class="tab-content" [innerHTML]="stats[selectedTab]"></div>
+}
