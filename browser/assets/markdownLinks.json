@@ -1,0 +1,45 @@
+[
+  {
+    "dir": "assets/content/creatures/fauno",
+    "detail": "fauno",
+    "name": "Fauno(a)",
+    "imagens": [
+      "fauno.jpg",
+      "fauno_2.jpg",
+      "fauno_3.jpg",
+      "fauno_4.jpg",
+      "fauno_5.jpg"
+    ],
+    "type": "creatures"
+  },
+  {
+    "dir": "assets/content/creatures/meio_ent",
+    "detail": "meio_ent",
+    "name": "Meio Ent",
+    "imagens": [
+      "meio_ent.jpg",
+      "meio_ent_2.jpg"
+    ],
+    "type": "creatures"
+  },
+  {
+    "dir": "assets/content/creatures/sereia",
+    "detail": "sereia",
+    "name": "Sereia",
+    "imagens": [
+      "sereira.jpg",
+      "sereira_2.jpg",
+      "sereira_3.jpg"
+    ],
+    "type": "creatures"
+  },
+  {
+    "dir": "assets/content/items/capa_invisibilidade",
+    "detail": "capa_invisibilidade",
+    "name": "Capa da Invisibilidade",
+    "imagens": [
+      "capa_invisibilidade.jpg"
+    ],
+    "type": "items"
+  }
+]
