@@ -1,5 +1,25 @@
 [
   {
+    "dir": "assets/content/creatures/asimar",
+    "detail": "asimar",
+    "name": "Asimar",
+    "imagens": [
+      "asimar.jpg",
+      "asimar_2.jpg"
+    ],
+    "type": "creatures"
+  },
+  {
+    "dir": "assets/content/creatures/drow",
+    "detail": "drow",
+    "name": "Drow",
+    "imagens": [
+      "drow.jpg",
+      "drow_2.jpg"
+    ],
+    "type": "creatures"
+  },
+  {
     "dir": "assets/content/creatures/fauno",
     "detail": "fauno",
     "name": "Fauno(a)",

@@ -5,9 +5,11 @@
     "ng": "ng",
     "prestart": "node generateMarkdownLinks.js",
     "prebuild": "node generateMarkdownLinks.js",
+    "prebuild:github": "node generateMarkdownLinks.js",
     "start": "ng serve",
     "build": "ng build",
     "build:github": "ng build --base-href \"https://emanueldsc.github.io/lore/\"",
+    "predeploy": "npm run build:github",
     "deploy": "npx angular-cli-ghpages --dir=dist/lore/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
