@@ -54,6 +54,16 @@
     "type": "creatures"
   },
   {
+    "dir": "assets/content/items/armas",
+    "detail": "armas",
+    "name": "Guia de Armas",
+    "imagens": [
+      "armas.jpeg",
+      "armas_2.jpeg"
+    ],
+    "type": "items"
+  },
+  {
     "dir": "assets/content/items/capa_invisibilidade",
     "detail": "capa_invisibilidade",
     "name": "Capa da Invisibilidade",

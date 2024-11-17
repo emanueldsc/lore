@@ -50,7 +50,8 @@ export class MenuComponent {
     { type: 'creatures', background: 'assets/imgs/menu_creatures.jpeg', selected: false },
     { type: 'items', background: 'assets/imgs/menu_items.jpeg', selected: false },
     { type: 'lands', background: 'assets/imgs/menu_lands.jpeg', selected: false },
-    { type: 'magics', background: 'assets/imgs/menu_magics.jpeg', selected: false }
+    { type: 'magics', background: 'assets/imgs/menu_magics.jpeg', selected: false },
+    { type: 'professions', background: 'assets/imgs/jobs.jpg', selected: false }
   ]
 
 }

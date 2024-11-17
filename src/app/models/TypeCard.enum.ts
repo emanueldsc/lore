@@ -6,7 +6,8 @@ export const TypeCard = {
       creatures: "Criatura",
       items: "Item",
       lands: "Terra",
-      magics: "Magia"
+      magics: "Magia",
+      professions: "Profissão"
     },
     menu: {
       adventures: "Aventuras",
@@ -14,7 +15,8 @@ export const TypeCard = {
       creatures: "Criaturas",
       items: "Itens",
       lands: "Terras",
-      magics: "Mágicas"
+      magics: "Magias",
+      professions: "Profissões"
     }
   },
   en: {
@@ -24,7 +26,8 @@ export const TypeCard = {
       creatures: "Creature",
       items: "Item",
       lands: "Land",
-      magics: "Magic"
+      magics: "Magic",
+      professions: "Profession"
     },
     menu: {
       adventures: "Adventures",
@@ -32,7 +35,8 @@ export const TypeCard = {
       creatures: "Creatures",
       items: "Items",
       lands: "Lands",
-      magics: "Magics"
+      magics: "Magics",
+      professions: "Professions"
     }
   },
   es: {
@@ -42,7 +46,8 @@ export const TypeCard = {
       creatures: "Criatura",
       items: "Objeto",
       lands: "Tierra",
-      magics: "Magia"
+      magics: "Magia",
+      professions: "Profesión"
     },
     menu: {
       adventures: "Aventuras",
@@ -50,15 +55,17 @@ export const TypeCard = {
       creatures: "Criaturas",
       items: "Objetos",
       lands: "Tierras",
-      magics: "Mágicas"
+      magics: "Mágicas",
+      professions: "Profesiones"
     }
   }
-} as const
+} as const;
+
 
 
 export type TypeCardLang = keyof typeof TypeCard // "pt" | "en" | "es"
 export type TypeCardType = keyof typeof TypeCard[TypeCardLang] // "menu" | "card"
-export type TypeCardCategory = keyof typeof TypeCard[TypeCardLang][TypeCardType] // "adventures" | "characters" | "creatures" | "items" | "lands" | "magics"
+export type TypeCardCategory = keyof typeof TypeCard[TypeCardLang][TypeCardType] // "adventures" | "characters" | "creatures" | "items" | "lands" | "magics" | "professions"
 
 export function getTypeCardLabel(lang: TypeCardLang, type: TypeCardType, category: TypeCardCategory): string {
   return TypeCard[lang][type][category]
