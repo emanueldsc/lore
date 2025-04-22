@@ -10,6 +10,17 @@
     "type": "creatures"
   },
   {
+    "dir": "assets/content/creatures/dragao",
+    "detail": "dragao",
+    "name": "Dragão",
+    "imagens": [
+      "dragao.jpg",
+      "dragao_2.jpg",
+      "dragao_3.jpg"
+    ],
+    "type": "creatures"
+  },
+  {
     "dir": "assets/content/creatures/drow",
     "detail": "drow",
     "name": "Drow",
@@ -52,6 +63,16 @@
       "sereira_3.jpg"
     ],
     "type": "creatures"
+  },
+  {
+    "dir": "assets/content/items/armas",
+    "detail": "armas",
+    "name": "Guia de Armas",
+    "imagens": [
+      "armas.jpeg",
+      "armas_2.jpeg"
+    ],
+    "type": "items"
   },
   {
     "dir": "assets/content/items/capa_invisibilidade",
